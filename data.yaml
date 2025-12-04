@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['turtlebot4']
+
+roboflow:
+  workspace: probando-ivq1i
+  project: my-first-project-kfeks
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/probando-ivq1i/my-first-project-kfeks/dataset/2

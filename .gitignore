@@ -1,0 +1,142 @@
+# ===== Python =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ===== Datasets y Modelos =====
+# Carpetas de datos de entrenamiento (pesadas)
+train/images/
+train/labels/
+valid/images/
+valid/labels/
+test/images/
+test/labels/
+
+# Archivos de datos temporales
+archivos_train/
+data_backup/
+dataset_raw/
+
+# Modelos entrenados (excepto el mejor)
+models_trained/*.pt
+!models_trained/best.pt
+!models_trained/best11s.pt
+models_trained/weights/
+models_trained/training_results/
+
+# Otros modelos
+other_models/*.pt
+!other_models/best11s.pt
+!other_models/yolo11n.pt
+
+# Cache de YOLO
+runs/
+*.cache
+
+# ===== Archivos del sistema =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+
+# ===== Logs y temporales =====
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archivos de backup
+backups/
+*.backup
+*.bak
+
+# ===== Videos y multimedia =====
+# Videos de prueba (pesados)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Imágenes temporales
+temp_images/
+screenshots/
+*.jpg
+*.jpeg
+*.png
+!README_assets/*.png
+!docs/images/*.png
+
+# ===== ROS2 =====
+# Build artifacts
+install/
+log/
+build/
+
+# ===== Archivos de configuración local =====
+# Configuraciones personales
+config_local.yaml
+secrets.yaml
+.env
+
+# Resultados experimentales
+experiments/
+results/
+output/
+
+# ===== Archivos comprimidos =====
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===== Carpetas de desarrollo =====
+traslado/
+web/test_*
+test_*.py
+debug_*.py

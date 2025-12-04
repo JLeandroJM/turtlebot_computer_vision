@@ -1,0 +1,24 @@
+# ===== Core Dependencies =====
+numpy>=1.21.0
+opencv-python>=4.5.0
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ===== Optional Dependencies =====
+# Para visualización mejorada
+matplotlib>=3.5.0
+pillow>=9.0.0
+
+# Para análisis de rendimiento
+psutil>=5.9.0
+
+# Para comunicación
+# (socket y asyncio son built-in en Python 3.8+)
+
+# ===== Development Dependencies =====
+# Descomentar si necesitas desarrollo
+# jupyter>=1.0.0
+# ipython>=8.0.0
+# black>=22.0.0
+# pylint>=2.12.0
